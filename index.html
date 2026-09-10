@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTR’D | Curated Products, Gifts & Experiences</title>
+    <meta name="description" content="KTR’D — Curated with intention. Discover beautifully curated products, gifts and experiences. Fragrances, jewellery, weddings, picnics and more.">
+    <meta property="og:title" content="KTR’D | Curated Products, Gifts & Experiences">
+    <meta property="og:description" content="Discover beautifully curated products, gifts and experiences by KTR’D.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Announcement Banner -->
+    <div id="announcement-banner" class="announcement-banner">
+        <span class="announcement-text"></span>
+        <button class="announcement-close" aria-label="Close announcement">&times;</button>
+    </div>
+
+    <!-- Sale Banner -->
+    <div id="sale-banner" class="sale-banner">
+        <span></span>
+        <a href="sale.html">SHOP SALE</a>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">KTR<span>’</span>D</a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="services.html">Services</a>
+                <a href="new-arrivals.html">New Arrivals</a>
+                <a href="sale.html">Sale</a>
+                <a href="about.html">About KTR’D</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="search-toggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+                <a href="cart.html" aria-label="Shopping cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                    <span class="cart-count">0</span>
+                </a>
+                <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <!-- Search Overlay -->
+    <div id="search-overlay" class="search-overlay">
+        <button class="search-close" aria-label="Close search">&times;</button>
+        <div class="search-box">
+            <input type="search" id="global-search" placeholder="Search products..." aria-label="Search products">
+        </div>
+        <div id="search-results"></div>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="images/hero/hero-main.jpg" alt="KTR’D curated lifestyle"
+                     onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221920%22 height=%221080%22 viewBox=%220 0 1920 1080%22%3E%3Crect fill=%22%23e8d9c8%22 width=%221920%22 height=%221080%22/%3E%3Ctext x=%2250%25%22 y=%2248%25%22 fill=%22%235c4636%22 font-family=%22Georgia,serif%22 font-size=%2264%22 text-anchor=%22middle%22%3EKTR%27D%3C/text%3E%3Ctext x=%2250%25%22 y=%2256%25%22 fill=%22%238a7360%22 font-family=%22sans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3ECurated With Intention%3C/text%3E%3C/svg%3E';">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content fade-in">
+                <h1>Curated With Intention.<br>Created For You.</h1>
+                <p>Discover beautifully curated products, gifts and experiences by KTR’D.</p>
+                <div class="hero-btns">
+                    <a href="shop.html" class="btn btn-primary">Shop Now</a>
+                    <a href="services.html" class="btn btn-outline">Explore Our Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore Categories -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Explore KTR’D</h2>
+                <p class="section-subtitle fade-in">Seven carefully considered collections</p>
+                <div class="category-grid">
+                    <a href="fragrances.html" class="category-card fade-in">
+                        <img src="images/products/perfume-01.jpg" alt="Fragrances"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23e8d9c8%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3EFragrances%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Fragrances</h3>
+                            <p>Scent is an experience</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="eau-de-cologne.html" class="category-card fade-in">
+                        <img src="images/products/cologne-01.jpg" alt="Eau de Cologne"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23d4c4b0%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3EEau de Cologne%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Eau de Cologne</h3>
+                            <p>Fresh & refined</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="coiffure.html" class="category-card fade-in">
+                        <img src="images/coiffure/coiffure-01.jpg" alt="Coiffure"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23c9b896%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3ECoiffure%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Coiffure</h3>
+                            <p>Beauty, styled with intention</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="weddings.html" class="category-card fade-in">
+                        <img src="images/weddings/wedding-01.jpg" alt="Weddings"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23e8d9c8%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3EWeddings%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Weddings</h3>
+                            <p>Moments worth remembering</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="picnics.html" class="category-card fade-in">
+                        <img src="images/picnics/picnic-01.jpg" alt="Picnics"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23d4c4b0%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3EPicnics%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Picnics</h3>
+                            <p>Beautiful moments, beautifully set</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="largesse.html" class="category-card fade-in">
+                        <img src="images/gifting/gift-01.jpg" alt="Largesse"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23c9b896%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3ELargesse%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Largesse</h3>
+                            <p>Give beautifully</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                    <a href="bijouterie.html" class="category-card fade-in">
+                        <img src="images/jewellery/jewellery-01.jpg" alt="Bijouterie"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22500%22%3E%3Crect fill=%22%23e8d9c8%22 width=%22400%22 height=%22500%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%235c4636%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 dy=%22.3em%22%3EBijouterie%3C/text%3E%3C/svg%3E';">
+                        <div class="category-card-content">
+                            <h3>Bijouterie</h3>
+                            <p>Little luxuries</p>
+                            <span class="btn btn-outline">Explore</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram-style section -->
+        <section class="section" style="background: var(--cream);">
+            <div class="container">
+                <h2 class="section-title fade-in">Follow the KTR’D experience</h2>
+                <p class="section-subtitle fade-in"><a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener">@KTRD</a></p>
+                <div class="instagram-grid fade-in">
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 1">
+                        <img src="images/gallery/gallery-01.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23e8d9c8%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 2">
+                        <img src="images/gallery/gallery-02.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23d4c4b0%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 3">
+                        <img src="images/gallery/gallery-03.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23c9b896%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 4">
+                        <img src="images/gallery/gallery-04.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23e8d9c8%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 5">
+                        <img src="images/gallery/gallery-05.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23d4c4b0%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                    <a href="https://instagram.com/ktrd" data-instagram target="_blank" rel="noopener" aria-label="Instagram post 6">
+                        <img src="images/gallery/gallery-06.jpg" alt="KTR’D moment"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23c9b896%22 width=%22300%22 height=%22300%22/%3E%3C/svg%3E';">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">KTR<span>’</span>D</a>
+                    <p>Curated With Intention. Created For You.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="new-arrivals.html">New Arrivals</a>
+                    <a href="sale.html">Sale</a>
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a href="fragrances.html">Fragrances</a>
+                    <a href="eau-de-cologne.html">Eau de Cologne</a>
+                    <a href="coiffure.html">Coiffure</a>
+                    <a href="weddings.html">Weddings</a>
+                    <a href="picnics.html">Picnics</a>
+                    <a href="largesse.html">Largesse</a>
+                    <a href="bijouterie.html">Bijouterie</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:hello@ktrd.co.za" data-email class="email-text">hello@ktrd.co.za</a></p>
+                    <p><a href="#" data-whatsapp>WhatsApp</a></p>
+                    <div class="footer-social mt-2">
+                        <a href="#" data-instagram aria-label="Instagram">IG</a>
+                        <a href="#" data-facebook aria-label="Facebook">FB</a>
+                        <a href="#" data-tiktok aria-label="TikTok">TT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 KTR’D. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Populate sale banner text from config
+        document.addEventListener("DOMContentLoaded", () => {
+            const saleBanner = document.getElementById("sale-banner");
+            if (saleBanner && typeof KTRD_CONFIG !== "undefined") {
+                saleBanner.querySelector("span").textContent = KTRD_CONFIG.saleBannerMessage;
+            }
+        });
+    </script>
+</body>
+</html>
