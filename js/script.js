@@ -9,10 +9,10 @@
 const KTRD_CONFIG = {
     // WhatsApp number in international format without + or spaces
     // Example for South Africa: 27821234567
-    whatsapp: "27820000000",
+    whatsapp: "27812080707",
 
     // Contact email
-    email: "hello@ktrd.co.za",
+    email: "ktrd.foryou@gmail.com",
 
     // Social media usernames / full URLs (without https://)
     instagram: "ktrd",
